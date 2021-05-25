@@ -5,5 +5,5 @@
 * Output structure
 
 ### Input structure:
-* for R-type:
+* for R-type:  
     `Op  rs rt rd`
