@@ -9,8 +9,8 @@
 * for R-type:  
     `Op  rs rt rd`  
     e.g: and 4 5 6  
-* for I-type:
-    `Op  res imd rt`<br /> 
+* for I-type:  
+    `Op  res imd rt`
     e.g: lw 4 100 5
 
 ### Output structure:
