@@ -18,3 +18,6 @@
     #### hex: Opcode-rs-rt-rd-function  
 * for I-type:
     #### hex: Opcode-rs-rt-imd  
+    
+    
+**NOTICE:** if you want use your own file for input at first create `inputfile.txt` file and enter your command line by line.
