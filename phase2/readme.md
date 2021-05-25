@@ -10,11 +10,11 @@
     `Op  rs rt rd`  
     e.g: and 4 5 6  
 * for I-type:
-    `Op  res imd rt`  
+    `Op  res imd rt`<br /> 
     e.g: lw 4 100 5
 
 ### Output structure:
-* for R-type:  
+* for R-type:
     #### hex: Opcode-rs-rt-rd-function  
 * for I-type:
     #### hex: Opcode-rs-rt-imd  
