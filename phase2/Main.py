@@ -26,12 +26,13 @@ def I_type(Opcode, rs, rt, imd):
     return res
 
 def print_result(li):
-    # print(li)
     final = list()
     for i in li:
         decimal = int(i, 2)
         hexi = hex(decimal)
         final.append(hexi[2:])
+    if len(final[-1]) == 1 and len(li) == 4:
+        final[-1] = '0'+final[-1]
     return final
 
 inputfile = open('inputfile.txt', 'r')
@@ -44,7 +45,6 @@ for line in lines:
     op = line.strip()
     arg1 = op.split()
     arg = arg1[0]
-    # print(arg)
     if(arg == 'and'):
         function = '0010'
         result = R_type('0000', arg1[1], arg1[2], arg1[3], function)        
