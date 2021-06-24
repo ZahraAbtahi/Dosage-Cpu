@@ -1,3 +1,6 @@
+
+
+
 def convert_reg2str(r):
     a = bin(int(r)).replace('0b','')
     a = ((4-len(a))*'0')+a
@@ -69,7 +72,7 @@ for line in lines:
         function = '1110'
         result = R_type('0000', arg1[1], arg1[2], arg1[3], function)
     elif(arg == 'lw'):
-        result = I_type('0011', arg1[1], arg1[3], arg1[2])
+        result = I_type('0011', arg1[3], arg1[1], arg1[2])
     elif(arg == 'sw'):
         result = I_type('1011', arg1[1], arg1[3], arg1[2])
     elif(arg == 'beq'):
