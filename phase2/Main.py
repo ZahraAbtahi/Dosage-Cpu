@@ -37,6 +37,7 @@ def print_result(li):
 
 inputfile = open('inputfile.txt', 'r')
 outputfile=open("outputfile.txt","w")
+outputfile.write('v2.0 raw\n')
 lines = inputfile.readlines()
 counter = 0
 for line in lines:
@@ -75,12 +76,11 @@ for line in lines:
         result = I_type('0001', arg1[1], arg1[2], arg1[3])
     final = print_result(result)
     result1 = ''.join(result)
-    result2 = ''.join(final)
-    for each in final:
-        outputfile.write(str(each))
-    print('\n---------------------------')
-    print(str(counter)+') line of file')
-    print('this is your result :')
-    print('     *binary : ',result1)
-    print('     *hex : ',result2)
-    print('---------------------------')
+    result2 = ''.join(final)+'\n'
+    outputfile.write(result2)
+    # print('\n---------------------------')
+    # print(str(counter)+') line of file')
+    # print('this is your result :')
+    # print('     *binary : ',result1)
+    # print('     *hex : ',result2)
+    # print('---------------------------')
