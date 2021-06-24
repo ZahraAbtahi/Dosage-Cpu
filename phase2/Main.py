@@ -1,6 +1,3 @@
-
-
-
 def convert_reg2str(r):
     a = bin(int(r)).replace('0b','')
     a = ((4-len(a))*'0')+a
@@ -81,9 +78,3 @@ for line in lines:
     result1 = ''.join(result)
     result2 = ''.join(final)+'\n'
     outputfile.write(result2)
-    # print('\n---------------------------')
-    # print(str(counter)+') line of file')
-    # print('this is your result :')
-    # print('     *binary : ',result1)
-    # print('     *hex : ',result2)
-    # print('---------------------------')
