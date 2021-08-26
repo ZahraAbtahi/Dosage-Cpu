@@ -8,6 +8,7 @@ watch this video for introduction : https://drive.google.com/file/d/1GPNIOUYStuI
 
 # ISA
 phase 1 cpu designed in logisim with a  reduced instruction set <br />
+<br />
 ![isa](https://user-images.githubusercontent.com/53050138/130906748-9b6b5c1d-b934-4326-9c61-447e895b3a30.jpg)
 
 # Assembler
