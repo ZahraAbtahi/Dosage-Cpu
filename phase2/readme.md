@@ -1,7 +1,7 @@
 # Phase 2 information and structure
 
 ## Intro
-* [Our ISA](www.google.com)
+* [Our ISA](https://github.com/soniaabtahi1959/Dosage-Cpu/tree/main/phase1)
 * Input structure
 * Output structure
 
